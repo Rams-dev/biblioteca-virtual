@@ -1,0 +1,88 @@
+.nav-enlace{
+    display: block;
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    padding: 25px 10px;
+    margin: 4px;
+
+}
+
+.nav-enlace:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.nav-vertical{
+    background-color: lightblue;
+    width: 15%;
+    height: 100vh;
+    float: left;
+}
+.salir:hover{
+    transform: scale(1.2);
+}
+.active{
+    background-color: green;
+    color: white;
+}
+#menuIco{
+    display: none;
+}
+/* dashboar */
+
+
+
+@media (max-width: 480px){
+
+    #menuIco{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    #salir {
+        width:55px; 
+        height: 50;
+    }
+    
+    .nav-enlace{
+        display: block;
+        background-color: lightseagreen;
+        color: white;
+        text-decoration: none;
+        padding: 15px 5px;
+        margin: 4px;
+        border-radius: 5px;
+    
+    }
+    
+    .nav-enlace:hover{
+        background-color: green;
+        color: white;
+        transform: scale(1.1);
+        text-decoration: none;
+    }
+    
+    .nav-vertical{
+        background-color: lightblue;
+        width: 100%;
+        height: inherit;
+        display: none;
+    }
+    .salir:hover{
+        transform: scale(1.2);
+    }
+    .active{
+        background-color: green;
+        color: white;
+    }
+    .container{
+        width: 100%;
+    }
+
+   
+
+   
+}
